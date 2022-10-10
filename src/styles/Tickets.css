@@ -1,0 +1,51 @@
+.tableContainerExcel{
+    display: none;
+}
+
+.tableRow{
+    border: 2px solid black;
+}
+
+.tableD{
+    border: 2px solid;
+    padding: 15px;
+}
+
+.tableVisibleContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px !important;}
+
+.excelButton{
+    margin-right: 20px;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 30px;
+}
+
+.next-page-class > a{
+    /* border: 0.0625rem solid #008F42 !important; */
+    color: #008F42 !important;
+    padding: 10px;
+}
+
+.previous-page-class > a{
+    /* border: 0.0625rem solid #008F42 !important; */
+    color: #008F42 !important;
+    padding: 10px;
+}
+
+.page-class > a{
+    border: 0.0625rem solid #008F42 !important;
+    color: #008F42 !important
+}
+
+.pageActive > a{
+    border: 0.0625rem solid #008F42 !important;
+    color:white !important;
+    background: #008F42 !important;
+}
